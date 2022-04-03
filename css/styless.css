@@ -7,7 +7,7 @@ div {
 }
 
 .img1 {
-    background-image: url(./img/paidaje1.jpg);
+    background-image: url("https://images.pexels.com/photos/950058/pexels-photo-950058.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     min-height: 100%;
 }
 
