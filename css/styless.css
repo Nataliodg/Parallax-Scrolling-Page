@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+
+.img1 {
+    background-image: url(./img/paidaje1.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(./img/paisaje2.jpg);
+    min-height: 100%;
+}
+
+.img3 {
+    background-image: url(./img/paisajes3.jpg);
+    min-height: 100%;
+}
+
+.img4 {
+    background-image: url(./img/paisaje4.jpg);
+    min-height: 100%;
+}
+
+.img5 {
+    background-image: url(./img/paisaje5.jpg);
+    min-height: 100%;
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    display: block;
+}
+
+.section {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: black;
+    border-top: 4px solid #FBFF00;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer>p {
+    margin: 2rem;
+}
+
+.footer-contact:hover {
+    color: #FBFF00;
+}
+
+@media (max-width: 568px){
+    .img1, .img2, .img3, .img4, .img5{
+        height: 100%;
+        width: 100%;
+    }
+}
